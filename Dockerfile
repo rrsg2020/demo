@@ -61,7 +61,7 @@ RUN cd $HOME/work;\
                 dash-renderer \
                 flask; \
     python -m sos_notebook.install;\
-    git clone https://github.com/qMRLab/demo.git; \
+    git clone https://github.com/rrsg/demo.git; \
     cd demo;\
     git clone --single-branch -b rrsg2020 https://github.com/neuropoly/qMRLab.git; \
     chmod -R 777 $HOME/work/demo; \
