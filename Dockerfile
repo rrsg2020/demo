@@ -53,7 +53,7 @@ RUN cd $HOME/work;\
                 sos-javascript==0.9.12.2 \
                 sos-r==0.9.12.2 \
                 scipy \
-                plotly<4.0.0 \
+                plotly==3.10.0 \
                 dash \
                 dash_core_components \
                 dash_html_components \
