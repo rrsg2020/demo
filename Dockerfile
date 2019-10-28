@@ -63,7 +63,7 @@ RUN cd $HOME/work;\
     python -m sos_notebook.install;\
     git clone https://github.com/rrsg2020/demo.git; \
     cd demo;\
-    git clone --single-branch -b rrsg2020 https://github.com/neuropoly/qMRLab.git;    \
+    git clone --single-branch -b rrsg2020 https://github.com/neuropoly/qMRLab.git;     \
     chmod -R 777 $HOME/work/demo; \
     octave --eval "cd qMRLab; \
                       startup; \
