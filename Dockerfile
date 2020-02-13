@@ -13,9 +13,6 @@ RUN cd $HOME; \
                         sos-javascript==0.9.12.2 \
                         sos-r==0.9.12.2 \
                         plotly==3.10.0 \
-                        dash==1.9.0 \
-                        dash_core_components==1.8.0 \
-                        dash-renderer==1.2.4; \
                         python -m sos_notebook.install
 
 WORKDIR $HOME
