@@ -1,7 +1,7 @@
 FROM qmrlab/mcrgui:v99.3.1
 
 RUN cd $HOME; \
-    git clone --single-branch -b binder_fix https://github.com/rrsg2020/demo.git;  \
+    git clone --single-branch -b binder_fix https://github.com/rrsg2020/demo.git;   \
     pip install --upgrade sos==0.17.7 \
                         sos-notebook==0.17.2 \
                         sos-python==0.9.12.1 \
