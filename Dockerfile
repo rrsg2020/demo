@@ -12,8 +12,8 @@ RUN cd $HOME; \
                         sos-julia==0.9.12.1 \
                         sos-javascript==0.9.12.2 \
                         sos-r==0.9.12.2 \
-                        plotly==3.10.0 \
-                        python -m sos_notebook.install
+                        plotly==3.10.0 ; \
+    python -m sos_notebook.install
 
 WORKDIR $HOME
 
